@@ -11,20 +11,27 @@
             font-family: Arial;
         }
 
+        /* khung tổng */
+        .container {
+            display: flex;
+        }
+
+        /* menu trái */
         .menu {
-            width: 200px;
-            height: 100vh;
+            width: 220px;
             background: #ddd;
-            float: left;
+            height: 100vh;
         }
 
-        .menu h3 {
-            background: #999;
-            margin: 0;
-            padding: 10px;
+        /* tiêu đề menu */
+        .menu .title {
+            background: #888;
             color: white;
+            padding: 10px;
+            font-weight: bold;
         }
 
+        /* item menu */
         .menu a {
             display: block;
             padding: 10px;
@@ -33,12 +40,12 @@
         }
 
         .menu a:hover {
-            background: #bbb;
+            background: #cfcfcf;
         }
 
+        /* nội dung */
         .content {
-            margin-left: 220px;
-            padding: 20px;
+            padding: 25px;
         }
     </style>
 
@@ -46,23 +53,26 @@
 
 <body>
 
-    <div class="menu">
-        <h3>Trang chủ</h3>
-        <a href="#">Khóa học</a>
-        <a href="#">Diễn đàn</a>
-        <a href="#">Liên hệ</a>
-    </div>
+    <div class="container">
 
-    <div class="content">
-        <h1>Học trực tuyến Công nghệ thông tin</h1>
+        <div class="menu">
+            <div class="title">Trang chủ</div>
+            <a href="#">Khóa học</a>
+            <a href="#">Diễn đàn</a>
+            <a href="#">Liên hệ</a>
+        </div>
 
-        <h3>Các khóa học:</h3>
+        <div class="content">
+            <h1>Học trực tuyến Công nghệ thông tin</h1>
 
-        <ol>
-            <li>Lập trình cơ bản</li>
-            <li>Cấu trúc dữ liệu</li>
-            <li>Thiết kế web</li>
-        </ol>
+            <h3>Các khóa học:</h3>
+
+            <ol>
+                <li>Lập trình cơ bản</li>
+                <li>Cấu trúc dữ liệu</li>
+                <li>Thiết kế web</li>
+            </ol>
+        </div>
 
     </div>
 
