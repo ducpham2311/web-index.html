@@ -4,77 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <title>Học trực tuyến CNTT</title>
-
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial;
-        }
-
-        /* khung tổng */
-        .container {
-            display: flex;
-        }
-
-        /* menu trái */
-        .menu {
-            width: 220px;
-            background: #ddd;
-            height: 100vh;
-        }
-
-        /* tiêu đề menu */
-        .menu .title {
-            background: #888;
-            color: white;
-            padding: 10px;
-            font-weight: bold;
-        }
-
-        /* item menu */
-        .menu a {
-            display: block;
-            padding: 10px;
-            text-decoration: none;
-            color: black;
-        }
-
-        .menu a:hover {
-            background: #cfcfcf;
-        }
-
-        /* nội dung */
-        .content {
-            padding: 25px;
-        }
-    </style>
-
 </head>
 
 <body>
 
-    <div class="container">
+    <table border="1" width="100%" height="500" cellspacing="0">
+        <tr>
 
-        <div class="menu">
-            <div class="title">Trang chủ</div>
-            <a href="#">Khóa học</a>
-            <a href="#">Diễn đàn</a>
-            <a href="#">Liên hệ</a>
-        </div>
+            <!-- Menu bên trái -->
+            <td width="20%" valign="top" bgcolor="#dddddd">
 
-        <div class="content">
-            <h1>Học trực tuyến Công nghệ thông tin</h1>
+                <table width="100%" cellspacing="0">
 
-            <h3>Các khóa học:</h3>
+                    <tr bgcolor="#888888">
+                        <td><b>Trang chủ</b></td>
+                    </tr>
 
-            <ol>
-                <li>Lập trình cơ bản</li>
-                <li>Cấu trúc dữ liệu</li>
-                <li>Thiết kế web</li>
-            </ol>
-        </div>
+                    <tr>
+                        <td>Khóa học</td>
+                    </tr>
 
-    </div>
+                    <tr>
+                        <td>Diễn đàn</td>
+                    </tr>
+
+                    <tr>
+                        <td>Liên hệ</td>
+                    </tr>
+
+                </table>
+
+            </td>
+
+
+            <!-- Nội dung bên phải -->
+            <td width="80%" valign="top">
+
+                <h1>Học trực tuyến Công nghệ thông tin</h1>
+
+                <h3>Các khóa học:</h3>
+
+                <ol>
+                    <li>Lập trình cơ bản</li>
+                    <li>Cấu trúc dữ liệu</li>
+                    <li>Thiết kế web</li>
+                </ol>
+
+            </td>
+
+        </tr>
+    </table>
 
 </body>
 
