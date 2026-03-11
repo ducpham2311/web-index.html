@@ -1,4 +1,6 @@
 AI:chatgpt
+
+
 lệng dùng:
 <div id="vung1">
     <a>trang chủ</a>
